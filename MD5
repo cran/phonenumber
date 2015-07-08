@@ -1,0 +1,16 @@
+ff92aa580e172907ee160afd085352ee *DESCRIPTION
+849377a67ef8ffd7721449af5db78c8b *LICENSE
+40d2652072ace60dcedaec4ae59b32df *NAMESPACE
+b1a3226430b7dd6c222438bbcd674d9a *R/letterToNumber.R
+f0c58b3efa7ba6794820471b583625c4 *R/numberToLetter.R
+52da79b4fe7f5d7723152d9a23017f41 *README.md
+6132e4ad7647c6cbb4ef864cc16f8081 *build/vignette.rds
+76f1994666f064bae78c24f8eb290cbf *inst/doc/phonenumber.R
+f9d5c6e58d14540d3b268963e72439b8 *inst/doc/phonenumber.Rmd
+aadcdb42d4637c3b1e56722ef5573e3b *inst/doc/phonenumber.html
+f601f22c262bc00a8b80f7f327d315f0 *man/letterToNumber.Rd
+21c1eac0f50c5f680add1a31ae392449 *man/numberToLetter.Rd
+00b9202054cc3859976eb197754a8c98 *tests/testthat.R
+d5cee07f3f0942f2926a8eea62924da3 *tests/testthat/test-letterToNumber.R
+61697e6167ccb60795a3ba70ef8a0ad4 *tests/testthat/test-numberToLetter.R
+f9d5c6e58d14540d3b268963e72439b8 *vignettes/phonenumber.Rmd
