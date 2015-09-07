@@ -10,7 +10,7 @@
 
 <meta name="author" content="Steve Myles" />
 
-<meta name="date" content="2015-08-21" />
+<meta name="date" content="2015-09-07" />
 
 <title>phonenumber</title>
 
@@ -54,7 +54,7 @@ code > span.er { color: #ff0000; font-weight: bold; }
 <div id="header">
 <h1 class="title">phonenumber</h1>
 <h4 class="author"><em>Steve Myles</em></h4>
-<h4 class="date"><em>2015-08-21</em></h4>
+<h4 class="date"><em>2015-09-07</em></h4>
 </div>
 
 
@@ -116,10 +116,13 @@ code > span.er { color: #ff0000; font-weight: bold; }
 <pre class="sourceCode r"><code class="sourceCode r">string &lt;-<span class="st"> &quot;Texas&quot;</span>
 <span class="kw">letterToNumber</span>(string)</code></pre>
 <pre><code>## [1] &quot;83927&quot;</code></pre>
-<p>The function is not limited to letters, though. Any numeric characters are returned as is and any non-alphanumeric characters (including spaces) are converted to dashes (-) and 1 and 0 are returned as is:</p>
+<p>The function is not limited to letters, though. Any numeric characters are returned as is and any non-alphanumeric characters (including spaces) are converted to dashes (-):</p>
 <pre class="sourceCode r"><code class="sourceCode r">string &lt;-<span class="st"> &quot;Texas is #1&quot;</span>
 <span class="kw">letterToNumber</span>(string)</code></pre>
 <pre><code>## [1] &quot;83927-47--1&quot;</code></pre>
+<p>Strings need not be limited to any specific format and all numbers are returned as is:</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">letterToNumber</span>(<span class="st">&quot;Jenny's number is 867-5309&quot;</span>)</code></pre>
+<pre><code>## [1] &quot;53669-7-686237-47-867-5309&quot;</code></pre>
 </div>
 <div id="numbertoletter" class="section level2">
 <h2><code>numberToLetter</code></h2>

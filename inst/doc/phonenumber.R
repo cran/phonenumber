@@ -9,6 +9,9 @@ letterToNumber(string)
 string <- "Texas is #1"
 letterToNumber(string)
 
+## ----letterToNumber ex3, echo = TRUE-------------------------------------
+letterToNumber("Jenny's number is 867-5309")
+
 ## ----numberToLetter ex1--------------------------------------------------
 string <- "22"
 numberToLetter(string)
